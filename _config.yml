@@ -9,7 +9,7 @@ name: Henry Barnard
 description: Web Developer from Somewhere
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: http://www.avatarys.com/var/albums/Cool-Avatars/Mix-Avatars/Cool-avatars-Funny-Dark-Side-Dart-Vader.jpg?m=1439941438
+avatar: http://wapmia.com/redirector.php?id=aHR0cHM6Ly90c2U0Lm1tLmJpbmcubmV0L3RoP2lkPU9JUC5NNGFkYjFkMDVjZWNmOTdlNmFlOTc5OTRkOWZmNWE1ZmZvMCZhbXA7dz0yMzAmYW1wO2g9MTcwJmFtcDtycz0xJmFtcDtwY2w9ZGRkZGRkJmFtcDtwaWQ9MS4x
 
 function addImgToCanvas(imgToAdd){
     var obj = new fabric.Image(imgToAdd, {
