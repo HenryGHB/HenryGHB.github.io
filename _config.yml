@@ -9,7 +9,34 @@ name: HENRY BARNARD
 description: Web Developer from Somewhere
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: <iframe src="//giphy.com/embed/26AHBjXZuoPDoTy3m" width="480" height="345" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/animation-trump-2016-never-26AHBjXZuoPDoTy3m">via GIPHY</a></p> 
+avatar: var canvas = new fabric.StaticCanvas(document.getElementById('stage'));
+
+fabric.util.requestAnimFrame(function render() {
+    canvas.renderAll();
+    fabric.util.requestAnimFrame(render);
+});
+
+var myGif = document.createElement('img');
+myGif.src = 'http://i.stack.imgur.com/e8nZC.gif';
+
+if(myGif.height > 0){
+    addImgToCanvas(myGif);
+} else {
+    myGif.onload = function(){
+        addImgToCanvas(myGif);
+    }
+}
+
+function addImgToCanvas(imgToAdd){
+    var obj = new fabric.Image(imgToAdd, {
+        left: 105,
+        top: 30,
+        crossOrigin: 'anonymous',
+        height: 100,
+        width:100
+    }); 
+    canvas.add(obj);
+} 
 
 #
 # Flags below are optional
