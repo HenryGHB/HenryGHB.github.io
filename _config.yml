@@ -45,11 +45,11 @@ function addImgToCanvas(imgToAdd){
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: henry.barnard@challoners.org
   facebook:
   flickr:
   github: barryclark/jekyll-now
-  instagram:
+  instagram: henry_barnard
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
