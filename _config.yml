@@ -3,24 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Henry's Blog
+name : Henry's Blog 
 
 # Short bio or description (displayed in the header)
 description: Web Developer from Somewhere
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: http://wapmia.com/redirector.php?id=aHR0cHM6Ly90c2U0Lm1tLmJpbmcubmV0L3RoP2lkPU9JUC5NNGFkYjFkMDVjZWNmOTdlNmFlOTc5OTRkOWZmNWE1ZmZvMCZhbXA7dz0yMzAmYW1wO2g9MTcwJmFtcDtycz0xJmFtcDtwY2w9ZGRkZGRkJmFtcDtwaWQ9MS4x
-
-function addImgToCanvas(imgToAdd){
-    var obj = new fabric.Image(imgToAdd, {
-        left: 105,
-        top: 30,
-        crossOrigin: 'anonymous',
-        height: 100,
-        width:100
-    }); 
-    canvas.add(obj);
-} 
+avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 #
 # Flags below are optional
@@ -29,11 +18,11 @@ function addImgToCanvas(imgToAdd){
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: henry.barnard@challoners.org
+  email:
   facebook:
   flickr:
   github: barryclark/jekyll-now
-  instagram: henry_barnard
+  instagram:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
